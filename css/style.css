@@ -1,0 +1,81 @@
+*,html,body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+div.container{
+    text-align: center;
+}
+:root{
+    --darkpurple: #23073d;
+    --lightpurple: #a26cd4;
+    --purple:#572B80;
+    --white:#fffbfb;
+    --gray: #F9FAFD;
+    --black:#23272A;
+}
+nav.navbar{
+    background-color:var(--gray) ;
+    color:var(--purple);
+    padding: 2rem;
+    display: flex;
+    gap: 33rem;
+}
+nav.contact_us{
+    background-color: var(--darkpurple);
+    color: var(--white);
+    display: flex;
+    gap: 40rem;
+}
+ul.social_media{
+    display:flex;
+    gap:4rem;
+}
+ul.others{
+    display:flex;
+    gap:4rem;
+}
+ul{
+    display:flex ;
+}
+ul li{
+    flex:1;
+    list-style-type: none;
+    padding: 1rem;
+}
+section.mid-section{
+    display: flex;
+    gap: 2rem;
+    color: var(--purple);
+    padding: 4rem 4rem;
+}
+div.intro h1{
+    font-size:3em;
+    color: var(--darkpurple);
+}
+div.intro h3{
+    font-size: 2em;
+    line-height: 1.5em;
+}
+div.intro{
+    max-height: 30ch;
+    padding: 1rem;
+
+}
+div.intro div{
+    display: inline;
+}
+a:link, a:visited{
+    color:var(--lightpurple)
+}
+button.learn_more{
+    border-radius: 2rem;
+    padding: 1rem;
+    background-color: var(--darkpurple);
+    border-color: var(--darkpurple);
+    color: var(--white);
+    width: 20ch;
+    min-height: 7ch;
+    font-size: 0.6em;
+}
